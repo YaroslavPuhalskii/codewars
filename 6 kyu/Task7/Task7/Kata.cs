@@ -13,6 +13,7 @@ namespace Task7
             int[] mass = new int[n];
             for(int i =0; i<customers.Length; i++ )
             {
+
                 Console.WriteLine(customers[i]);
             }
             return 0;

@@ -10,7 +10,7 @@ namespace Task7
     {
         static void Main(string[] args)
         {
-            var n = new int[] {2,3,10};
+            var n = new int[] {2,3,10,1,4,7,3};
             Kata.QueueTime(n,2);
             Console.ReadLine();
         }
