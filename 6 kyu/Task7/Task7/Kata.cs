@@ -10,7 +10,11 @@ namespace Task7
     {
         public static long QueueTime(int[] customers, int n)
         {
-
+            int[] mass = new int[n];
+            for(int i =0; i<customers.Length; i++ )
+            {
+                Console.WriteLine(customers[i]);
+            }
             return 0;
         }
     }

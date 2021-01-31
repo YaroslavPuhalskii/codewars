@@ -12,6 +12,7 @@ namespace Task7
         {
             var n = new int[] {2,3,10};
             Kata.QueueTime(n,2);
+            Console.ReadLine();
         }
     }
 }
