@@ -10,13 +10,14 @@ namespace Task7
     {
         public static long QueueTime(int[] customers, int n)
         {
-            int[] mass = new int[n];
-            for(int i =0; i<customers.Length; i++ )
-            {
+            var checkout = new int[n];
 
-                Console.WriteLine(customers[i]);
+            foreach (var customer in customers)
+            {
+                checkout[Array.IndexOf(checkout, checkout.Min())] += customer;
             }
-            return 0;
+
+            return checkout.Max();
         }
     }
 }
