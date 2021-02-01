@@ -1,0 +1,7 @@
+C:\Users\User\source\repos\Codewars\Codewars\6 kyu\Task9\Task9\bin\Debug\Task9.exe.config
+C:\Users\User\source\repos\Codewars\Codewars\6 kyu\Task9\Task9\bin\Debug\Task9.exe
+C:\Users\User\source\repos\Codewars\Codewars\6 kyu\Task9\Task9\bin\Debug\Task9.pdb
+C:\Users\User\source\repos\Codewars\Codewars\6 kyu\Task9\Task9\obj\Debug\Task9.csprojAssemblyReference.cache
+C:\Users\User\source\repos\Codewars\Codewars\6 kyu\Task9\Task9\obj\Debug\Task9.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Codewars\Codewars\6 kyu\Task9\Task9\obj\Debug\Task9.exe
+C:\Users\User\source\repos\Codewars\Codewars\6 kyu\Task9\Task9\obj\Debug\Task9.pdb
