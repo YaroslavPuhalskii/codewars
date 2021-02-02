@@ -10,7 +10,7 @@ namespace Task2
     {
         static void Main(string[] args)
         {
-            Kata.sumStrings("54564651651651","165165166846");
+            Kata.sumStrings("54","1");
             Console.ReadLine();
         }
     }
