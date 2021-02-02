@@ -10,18 +10,12 @@ namespace Task2
     {
         public static string ExpandedForm(long num)
         {
-            int k = 0;
             var m = (num == 0) ? 1 : (int)Math.Ceiling(Math.Log10(Math.Abs(num) + 0.5));
-            List<int> array = new List<int>();
-            for (int i = 0; i < m; i++)
-            {
-                k = (int)num % 10;
-                array.Add(k);
-                num /= 10;
-            }
-            array.Reverse();
-            int stepen = Convert.ToInt32(Math.Pow(10, m - 1));
-            foreach (int p in array)
+            var q = num.ToString().ToCharArray().Select(x => (int)(x -'0'));
+            q.Reverse();
+            long stepen = Convert.ToInt64(Math.Pow(10, m - 1));
+            List<string> mass = new List<string>();
+            foreach (int p in q)
             {
 
                 if (p != 0 && stepen != 1)
@@ -29,16 +23,14 @@ namespace Task2
                     
                     var str = (p * stepen).ToString();
                     stepen = stepen / 10;
-                    Console.Write(str + " + ");
-                    return "";
+                    mass.Add(str);
                 }
                 else if (p == 0) { stepen = stepen / 10; }
-                else if (stepen == 1) { Console.Write(p);return " "; }
-                return " ";
+                else if (stepen == 1) { mass.Add(p.ToString()); }
 
             }
-            Console.WriteLine("---------------------");
-
+            string expForm = String.Join(" + ", mass);
+            return expForm;
         }
     }
 }
