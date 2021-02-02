@@ -12,22 +12,26 @@ namespace Task2
         {
             var masa = a.ToArray();
             masa.Reverse();
+            Console.WriteLine(masa);
             var masb = b.ToArray();
             masb.Reverse();
+            Console.WriteLine(masb);
             int suma = masa.Count();
             int sumb = masb.Count();
+            var ressum = suma>sumb ? suma : sumb;
 
             int temp = 0; int x1 = 0; int x2 = 0;
             List<int> list = new List<int>();
 
-            for (int i = 0; i < masa.Length + masb.Length; i++)
+            for (int i = 0; i < ressum; i++)
             {
-                if (masa[i] != 0 && masa[i] != null)
+
+                if (i<= suma)
                 {
                     x1 = int.Parse(masa[i].ToString());
 
                 }
-                if (masb[i] != 0 && masb[i] != null)
+                if (i<=sumb-1)
                 {
                     x2 = int.Parse(masb[i].ToString());
                 }
