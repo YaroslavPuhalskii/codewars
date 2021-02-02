@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -10,72 +11,44 @@ namespace Task2
     {
         public static string sumStrings(string a, string b)
         {
-            var masa = a.ToArray();
-            masa.Reverse();
-            Console.WriteLine(masa);
-            var masb = b.ToArray();
-            masb.Reverse();
-            Console.WriteLine(masb);
-            int suma = masa.Count();
-            int sumb = masb.Count();
-            var ressum = suma>sumb ? suma : sumb;
-
-            int temp = 0; int x1 = 0; int x2 = 0;
-            List<int> list = new List<int>();
-
-            for (int i = 0; i < ressum; i++)
+            CultureInfo culture;
+            String qqq = null;
+            double a1 = 0; double b1 = 0; double sum = 0;
+            if (a != null && a != "")
             {
-
-                if (i<= suma)
-                {
-                    x1 = int.Parse(masa[i].ToString());
-
-                }
-                if (i<=sumb-1)
-                {
-                    x2 = int.Parse(masb[i].ToString());
-                }
-                list.Add((x1 + x2 + temp) % 10);
-                temp = (x1 + x2) / 10;
+                a1 = Convert.ToDouble(a);
             }
+            else { a = "0"; a1 = Convert.ToDouble(a); }
 
-            var result = list.ToArray();
-            result.Reverse();
-            var sum = String.Join("", result);
+            if (b != null && b != "")
+            {
+                b1 = Convert.ToDouble(b);
+            }
+            else { b = "0"; b1 = Convert.ToDouble(b); }
+
+            sum = a1 + b1;
             Console.WriteLine(sum);
-            return "";
+            culture = CultureInfo.CreateSpecificCulture("en-CA");
+            Console.WriteLine(sum.ToString(qqq, culture));
+            Console.WriteLine("{0:F3}", sum);
 
-
-
-
-
-
-
-            return "";
-
-
-            //float a1 = 0f; float b1 = 0f; float sum = 0f;
-            //if (a != null && a != "")
-            //{
-            //    a1 = Convert.ToSingle(a);
-            //}
-            //else { a = "0"; a1 = Convert.ToSingle(a); }
-
-            //if (b != null && b != "")
-            //{
-            //    b1 = Convert.ToSingle(b);
-            //}
-            //else { b= "0"; b1 = Convert.ToSingle(b); }
-            
-            //sum = a1 + b1;
             //var m = (sum == 0) ? 1 : (int)Math.Ceiling(Math.Log10(Math.Abs(sum) + 0.5));
             //List<int> list = new List<int>();
-            //for(int i = 0; i < sum.ToString().Length; i++)
+            //for (int i = 0; i < m; i++)
             //{
-            //     int k = sum/ 10;
+            //    int q = (int)sum % 10;
+            //    list.Add(q);
+            //    sum = sum / 10;
+
             //}
-            //Console.WriteLine(sum);
-            //return sum.ToString();
+            //list.Reverse();
+            //String ex = String.Join("", list);
+            //foreach(var p in list)
+            //{
+            //    Console.WriteLine(p);
+            //}
+            Console.WriteLine(qqq);
+            return qqq;
         }
     }
 }
