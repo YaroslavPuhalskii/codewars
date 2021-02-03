@@ -14,15 +14,15 @@ namespace Task2
             var words = str.Split(new char[] { ' '});
             List<string> str1 = new List<string>();
             string ay = "ay";
-
             foreach(var c in words)
             {
                 var p = c.First() + ay;
                 str1.Add(p);
                 var q =c.Remove(0,1);
-                result = result + q.ToString() + p;
+                result = result + q.ToString() + p + " ";
+
             }
-            Console.WriteLine(result);
+            result = result.Remove(result.Length-1);
             return result;
         }
     }
