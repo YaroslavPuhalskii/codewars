@@ -10,6 +10,7 @@ namespace Task2
     {
         public static string PigIt(string str)
         {
+            var words = str.Split(new char[] { ' '});
             return str;
         }
     }

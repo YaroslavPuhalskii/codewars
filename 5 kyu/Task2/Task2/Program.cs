@@ -10,7 +10,8 @@ namespace Task2
     {
         static void Main(string[] args)
         {
-
+            String str = "Pig latin is cool";
+            Kata.PigIt(str);
         }
     }
 }
