@@ -12,6 +12,7 @@ namespace Task2
         {
             String str = "Pig latin is cool";
             Kata.PigIt(str);
+            Console.ReadLine();
         }
     }
 }

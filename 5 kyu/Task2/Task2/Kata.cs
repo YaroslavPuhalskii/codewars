@@ -10,8 +10,20 @@ namespace Task2
     {
         public static string PigIt(string str)
         {
+            String result = null;
             var words = str.Split(new char[] { ' '});
-            return str;
+            List<string> str1 = new List<string>();
+            string ay = "ay";
+
+            foreach(var c in words)
+            {
+                var p = c.First() + ay;
+                str1.Add(p);
+                var q =c.Remove(0,1);
+                result = result + q.ToString() + p;
+            }
+            Console.WriteLine(result);
+            return result;
         }
     }
 }
