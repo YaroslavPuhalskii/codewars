@@ -11,16 +11,23 @@ namespace Task2
         public static string PigIt(string str)
         {
             String result = null;
-            var words = str.Split(new char[] { ' '});
+            var words = str.Split(new char[] { ' ' });
             List<string> str1 = new List<string>();
             string ay = "ay";
             foreach(var c in words)
             {
-                var p = c.First() + ay;
-                str1.Add(p);
-                var q =c.Remove(0,1);
-                result = result + q.ToString() + p + " ";
-
+                if (c != "!")
+                {
+                    var p = c.First() + ay;
+                    str1.Add(p);
+                    var q = c.Remove(0, 1);
+                    result = result + q.ToString() + p + " ";
+                }
+                else { var p = c.First().ToString();
+                    str1.Add(p);
+                    var q = c.Remove(0, 1);
+                    result = result + q.ToString() + p + " ";
+                }                
             }
             result = result.Remove(result.Length-1);
             return result;
