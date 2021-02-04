@@ -31,26 +31,6 @@ namespace Task2
             }
             result = result.Remove(result.Length-1);
             return result;
-            dksaljfghksd;ljfaklwkwfka;lf
-                awfaw
-                faw
-                faw
-                f
-                waf
-                aw
-                f
-                wa
-                f
-                wa
-                f
-                awfkawlgjkalwg
-                agwg;agwgjga
-                ga
-                gjajg;ajg;ajg
-                ajw;ldld
-                wqdq
-                dqwl;dmq;lwf
-                qwf
         }
     }
 }
