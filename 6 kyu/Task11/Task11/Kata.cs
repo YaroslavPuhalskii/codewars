@@ -12,9 +12,13 @@ namespace Task11
         {
             var arr = seq.ToList().OrderBy(xo => xo).ToArray();
             int count = 1; int x = 0;
-            for(int i = 0; i<arr.Length; i++)
+            foreach (var p in arr)
             {
-                Console.WriteLine(arr[i]);
+                Console.WriteLine(p);
+
+            }
+            for (int i = 0; i<arr.Length; i++)
+            {
                 if(i <arr.Count()-1)
                 {
                     if (arr[i] == arr[i + 1])
