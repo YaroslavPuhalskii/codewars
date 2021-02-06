@@ -1,0 +1,7 @@
+C:\Users\User\source\repos\Codewars\Codewars\5 kyu\Task3\Task3\bin\Debug\Task3.exe.config
+C:\Users\User\source\repos\Codewars\Codewars\5 kyu\Task3\Task3\bin\Debug\Task3.exe
+C:\Users\User\source\repos\Codewars\Codewars\5 kyu\Task3\Task3\bin\Debug\Task3.pdb
+C:\Users\User\source\repos\Codewars\Codewars\5 kyu\Task3\Task3\obj\Debug\Task3.csprojAssemblyReference.cache
+C:\Users\User\source\repos\Codewars\Codewars\5 kyu\Task3\Task3\obj\Debug\Task3.csproj.CoreCompileInputs.cache
+C:\Users\User\source\repos\Codewars\Codewars\5 kyu\Task3\Task3\obj\Debug\Task3.exe
+C:\Users\User\source\repos\Codewars\Codewars\5 kyu\Task3\Task3\obj\Debug\Task3.pdb
