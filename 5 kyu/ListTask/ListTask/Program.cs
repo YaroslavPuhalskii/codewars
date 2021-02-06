@@ -10,8 +10,12 @@ namespace ListTask
     {
         static void Main(string[] args)
         {
+            int lst = 7775460;
+            PrimeDecomp.factors(lst);
+
             String start = "10.0.0.0"; String end = "10.0.1.0";
             CountIPAddresses.IpsBetween(start, end);
+
             Console.ReadLine();
         }
     }
