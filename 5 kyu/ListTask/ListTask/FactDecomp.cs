@@ -12,7 +12,26 @@ namespace ListTask
 		public static string Decomp(int n)
 		{
 			BigInteger intResult = new BigInteger(1);
+			var count = 0;
 			var list = new List<string>();
+			for (int i = 1; i <= n; i++)
+			{
+				intResult = intResult * i;
+			}
+			while (intResult % 2 == 0) { count++; intResult /= 2; }
+			list.Add(String.Format(count > 1 ? "{0}^{1}" : "{0}", 2, count));
+			int div = 3;
+			while (Math.Pow(div, 2) <= n*n)
+			{
+				count = 0;
+				while (intResult % div == 0) { count++; intResult /= div; }
+				if (count == 0) { div += 2; continue; }
+				list.Add(String.Format(count > 1 ? "{0}^{1}" : "{0}", div, count));
+			}
+			var c = String.Join(" * ", list);
+			Console.WriteLine(c);
+
+			/*
 			for(int i =1; i<=n;i++)
             {
 				intResult = intResult * i;
@@ -27,6 +46,7 @@ namespace ListTask
             }
 			var c = String.Join(" * ", list);
 			Console.WriteLine(c);
+			*/
 			return c;
 		}
 	}
