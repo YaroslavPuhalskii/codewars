@@ -10,11 +10,14 @@ namespace ListTask
     {
         static void Main(string[] args)
         {
-            int lst = 7775460;
-            PrimeDecomp.factors(lst);
+            int[] arr = new int[] { 1, 2, 0, 1, 0, 1, 0, 3, 0, 1 };
+            Kata.MoveZeroes(arr);
 
-            String start = "10.0.0.0"; String end = "10.0.1.0";
-            CountIPAddresses.IpsBetween(start, end);
+            //int lst = 7775460;
+            //PrimeDecomp.factors(lst);
+
+            //String start = "10.0.0.0"; String end = "10.0.1.0";
+            //CountIPAddresses.IpsBetween(start, end);
 
             Console.ReadLine();
         }

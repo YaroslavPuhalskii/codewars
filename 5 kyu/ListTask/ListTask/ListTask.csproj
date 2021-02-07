@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CountIPAddresses.cs" />
+    <Compile Include="Kata.cs" />
     <Compile Include="PrimeDecomp.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
