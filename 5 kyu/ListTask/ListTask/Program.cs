@@ -10,8 +10,11 @@ namespace ListTask
     {
         static void Main(string[] args)
         {
-            int[] arr = new int[] { 1, 2, 0, 1, 0, 1, 0, 3, 0, 1 };
-            Kata.MoveZeroes(arr);
+            int n = 25;
+            FactDecomp.Decomp(n);
+
+            //int[] arr = new int[] { 1, 2, 0, 1, 0, 1, 0, 3, 0, 1 };
+            //Kata.MoveZeroes(arr);
 
             //int lst = 7775460;
             //PrimeDecomp.factors(lst);

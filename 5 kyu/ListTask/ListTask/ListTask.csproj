@@ -35,6 +35,7 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Numerics" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -44,6 +45,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="CountIPAddresses.cs" />
+    <Compile Include="FactDecomp.cs" />
     <Compile Include="Kata.cs" />
     <Compile Include="PrimeDecomp.cs" />
     <Compile Include="Program.cs" />
