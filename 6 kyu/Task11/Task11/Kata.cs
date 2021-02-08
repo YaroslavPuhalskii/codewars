@@ -10,29 +10,15 @@ namespace Task11
     {
         public static int find_it(int[] seq)
         {
-            var arr = seq.ToList().OrderBy(xo => xo).ToArray();
-            int count = 1; int x = 0;
-            foreach (var p in arr)
+            var arr = seq.ToList();
+            int res = 0;
+            foreach (int val in arr.Distinct())
             {
-                Console.WriteLine(p);
-
+                var b = arr.Where(x => x == val).Count();
+                if (b % 2 == 1) { res = val; }
             }
-            for (int i = 0; i<arr.Length; i++)
-            {
-                if(i <arr.Count()-1)
-                {
-                    if (arr[i] == arr[i + 1])
-                    { count++; }
-                    if (arr[i] != arr[i + 1] && (count % 2 == 1 || count == 1))
-                    {
-                        x = arr[i];
-                        count = 1;
-                    }
-                    else if (arr[i] != arr[i+1] && count%2==0){ count = 1; }
-                }                
-            }
-            Console.WriteLine(x);
-            return x;
+            Console.WriteLine(res);
+            return res;
         }
     }
 }
