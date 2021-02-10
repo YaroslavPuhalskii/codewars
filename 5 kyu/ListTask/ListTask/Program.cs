@@ -10,8 +10,11 @@ namespace ListTask
     {
         static void Main(string[] args)
         {
-            int n = 1000;
-            Kata2.TrailingZeros(n);
+            int[] arr = new int[] { 2, 4, 4, 5, 4 };
+            Kata3.Score(arr);
+
+            //int n = 1000;
+            //Kata2.TrailingZeros(n);
 
             //int n = 25;
             //FactDecomp.Decomp(n);

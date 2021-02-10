@@ -48,6 +48,7 @@
     <Compile Include="FactDecomp.cs" />
     <Compile Include="Kata.cs" />
     <Compile Include="Kata2.cs" />
+    <Compile Include="Kata3.cs" />
     <Compile Include="PrimeDecomp.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
