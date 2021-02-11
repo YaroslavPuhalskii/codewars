@@ -10,9 +10,13 @@ namespace ListTask
     {
         static void Main(string[] args)
         {
-            string word = "abba";
-            List<string> str = new List<string>() { "aabb", "abcd", "bbaa", "dada" };
-            Kata4.Anagrams(word, str);
+            var a = new List<object>() { 1, 2, 3, 4, 5, 6 };
+            var k = 20;
+            Josephus.JosephusPermutation(a,k);
+
+            //string word = "abba";
+            //List<string> str = new List<string>() { "aabb", "abcd", "bbaa", "dada" };
+            //Kata4.Anagrams(word, str);
 
             //int[] arr = new int[] { 2, 4, 4, 5, 4 };
             //Kata3.Score(arr);

@@ -46,6 +46,7 @@
   <ItemGroup>
     <Compile Include="CountIPAddresses.cs" />
     <Compile Include="FactDecomp.cs" />
+    <Compile Include="Josephus.cs" />
     <Compile Include="Kata.cs" />
     <Compile Include="Kata2.cs" />
     <Compile Include="Kata3.cs" />
