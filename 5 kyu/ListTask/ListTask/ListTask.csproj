@@ -54,6 +54,7 @@
     <Compile Include="Kata5.cs" />
     <Compile Include="Line.cs" />
     <Compile Include="PrimeDecomp.cs" />
+    <Compile Include="ProdFib.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

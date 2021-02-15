@@ -10,9 +10,11 @@ namespace ListTask
     {
         static void Main(string[] args)
         {
-            string[] names = new string[] { "Sheldon", "Leonard", "Penny", "Rajesh", "Howard" };
-            int n = 40;
-            Line.WhoIsNext(names, n);
+            ProdFib.productFib(4895);
+
+            //string[] names = new string[] { "Sheldon", "Leonard", "Penny", "Rajesh", "Howard" };
+            //int n = 40;
+            //Line.WhoIsNext(names, n);
 
             //int[] arr = new int[] { -2, 1, -3, 4, -1, 2, 1, -5, 4 };
             //Kata5.MaxSequence(arr);
