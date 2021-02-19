@@ -10,7 +10,10 @@ namespace ListTask
     {
         static void Main(string[] args)
         {
-            ProdFib.productFib(4895);
+            //string[] str = new string[0];
+            //Kata6.Likes(str);
+
+            //ProdFib.productFib(4895);
 
             //string[] names = new string[] { "Sheldon", "Leonard", "Penny", "Rajesh", "Howard" };
             //int n = 40;
