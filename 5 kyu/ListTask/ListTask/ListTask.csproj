@@ -44,6 +44,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Brace.cs" />
     <Compile Include="CountIPAddresses.cs" />
     <Compile Include="FactDecomp.cs" />
     <Compile Include="Josephus.cs" />

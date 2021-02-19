@@ -10,6 +10,8 @@ namespace ListTask
     {
         static void Main(string[] args)
         {
+            Brace.validBraces("([{}]))");
+
             //string[] str = new string[0];
             //Kata6.Likes(str);
 
