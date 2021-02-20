@@ -55,6 +55,7 @@
     <Compile Include="Kata5.cs" />
     <Compile Include="Kata6.cs" />
     <Compile Include="Line.cs" />
+    <Compile Include="Number.cs" />
     <Compile Include="PrimeDecomp.cs" />
     <Compile Include="ProdFib.cs" />
     <Compile Include="Program.cs" />

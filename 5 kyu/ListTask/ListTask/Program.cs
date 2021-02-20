@@ -10,7 +10,9 @@ namespace ListTask
     {
         static void Main(string[] args)
         {
-            Brace.validBraces("([{}]))");
+            Number.DigitalRoot(942);
+
+            //Brace.validBraces("([{}]))");
 
             //string[] str = new string[0];
             //Kata6.Likes(str);
