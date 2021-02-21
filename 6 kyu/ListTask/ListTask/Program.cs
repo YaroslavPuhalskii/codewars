@@ -10,7 +10,10 @@ namespace ListTask
     {
         static void Main(string[] args)
         {
-            Persist.Persistence(987);
+            int[] exampleTest1 = { 2, 6, 8, -10, 3 };
+            Kata1.Find(exampleTest1);
+
+            //Persist.Persistence(987);
         }
     }
 }
