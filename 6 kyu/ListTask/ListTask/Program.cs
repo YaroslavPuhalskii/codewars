@@ -10,6 +10,7 @@ namespace ListTask
     {
         static void Main(string[] args)
         {
+            Persist.Persistence(987);
         }
     }
 }
