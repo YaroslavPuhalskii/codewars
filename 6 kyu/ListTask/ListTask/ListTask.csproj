@@ -45,6 +45,7 @@
   <ItemGroup>
     <Compile Include="Kata.cs" />
     <Compile Include="Kata1.cs" />
+    <Compile Include="Kata2.cs" />
     <Compile Include="Persist .cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
