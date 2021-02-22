@@ -16,7 +16,6 @@ namespace ListTask
     {
         public static int[] ArrayDiff(int[] a, int[] b)
         {
-
             var hash = new HashSet<int>(b);
             return a.Where(x => !hash.Contains(x)).ToArray();
         }
