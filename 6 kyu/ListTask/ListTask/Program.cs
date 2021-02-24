@@ -10,7 +10,9 @@ namespace ListTask
     {
         static void Main(string[] args)
         {
-            Kata4.Order("is2 Thi1s T4est 3a");
+
+
+            //Kata4.Order("");
 
             //Kata3.AlphabetPosition("The sunset sets at twelve o' clock.");
 
