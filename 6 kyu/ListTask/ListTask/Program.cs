@@ -10,7 +10,9 @@ namespace ListTask
     {
         static void Main(string[] args)
         {
-            Kata5.UniqueInOrder("AAAABBBCCDAABBB");
+            //Kata6.SortArray(new int[] { 5, 3, 2, 8, 1, 4 });
+
+            //Kata5.UniqueInOrder("AAAABBBCCDAABBB");
 
             //IQ.Test("43 28 1 91");
 

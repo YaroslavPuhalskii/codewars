@@ -50,6 +50,7 @@
     <Compile Include="Kata3.cs" />
     <Compile Include="Kata4.cs" />
     <Compile Include="Kata5.cs" />
+    <Compile Include="Kata6.cs" />
     <Compile Include="Persist .cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
