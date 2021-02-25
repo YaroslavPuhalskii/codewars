@@ -43,6 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IQ.cs" />
     <Compile Include="Kata.cs" />
     <Compile Include="Kata1.cs" />
     <Compile Include="Kata2.cs" />

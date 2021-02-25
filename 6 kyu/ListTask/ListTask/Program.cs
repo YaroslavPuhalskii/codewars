@@ -10,8 +10,7 @@ namespace ListTask
     {
         static void Main(string[] args)
         {
-
-
+            IQ.Test("43 28 1 91");
             //Kata4.Order("");
 
             //Kata3.AlphabetPosition("The sunset sets at twelve o' clock.");
