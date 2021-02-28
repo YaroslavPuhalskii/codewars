@@ -3,7 +3,21 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+/*
+Given an n x n array, return the array elements arranged from outermost elements
+to the middle element, traveling clockwise.
 
+array = [[1,2,3],
+         [4,5,6],
+         [7,8,9]]
+snail(array) #=> [1,2,3,6,9,8,7,4,5]
+For better understanding, please follow the numbers of the next array consecutively:
+
+array = [[1,2,3],
+         [8,9,4],
+         [7,6,5]]
+snail(array) #=> [1,2,3,4,5,6,7,8,9]
+*/
 namespace Task1
 {
     public class SnailSolution
@@ -48,57 +62,29 @@ namespace Task1
 
             return result;
         }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
         //public static List<int> list = new List<int>();
         //public static int[] Snail(int[][] array)
         //{
-        //    int[] result = rigth(array, 0 , array[0].Length).ToArray();
+        //    int[] result = rigth(array, 0, array[0].Length).ToArray();
         //    return result;
         //}
 
         //private static List<int> rigth(int[][] array, int start, int end)
         //{
-        //    for(int i = start; i< end; i++)
+        //    for (int i = start; i < end; i++)
         //    {
         //        list.Add(array[start][i]);
         //    }
-        //    if(array[0].Length * array[0].Length == list.Count)
+        //    if (array[0].Length * array[0].Length == list.Count)
         //    {
         //        return list;
         //    }
-        //    return bot(array, start + 1, array[0].Length-1);
+        //    return bot(array, start + 1, array[0].Length - 1);
         //}
 
         //private static List<int> bot(int[][] array, int start, int end)
         //{
-        //    for(int i = start; i <= end; i++)
+        //    for (int i = start; i <= end; i++)
         //    {
         //        list.Add(array[i][end]);
         //    }
