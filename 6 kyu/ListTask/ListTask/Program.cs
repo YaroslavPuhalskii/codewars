@@ -10,7 +10,12 @@ namespace ListTask
     {
         static void Main(string[] args)
         {
-            Kata7.Narcissistic(153);
+
+            Kata9.BreakCamelCase("camelCasing");
+
+            //Kata8.CountBits(4);
+
+            //Kata7.Narcissistic(153);
 
             //Kata6.SortArray(new int[] { 5, 3, 2, 8, 1, 4 });
 
