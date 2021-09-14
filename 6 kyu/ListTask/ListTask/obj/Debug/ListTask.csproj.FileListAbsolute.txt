@@ -1,7 +1,7 @@
 C:\Users\User\source\repos\Codewars\Codewars\6 kyu\ListTask\ListTask\bin\Debug\ListTask.exe.config
 C:\Users\User\source\repos\Codewars\Codewars\6 kyu\ListTask\ListTask\bin\Debug\ListTask.exe
 C:\Users\User\source\repos\Codewars\Codewars\6 kyu\ListTask\ListTask\bin\Debug\ListTask.pdb
-C:\Users\User\source\repos\Codewars\Codewars\6 kyu\ListTask\ListTask\obj\Debug\ListTask.csprojAssemblyReference.cache
 C:\Users\User\source\repos\Codewars\Codewars\6 kyu\ListTask\ListTask\obj\Debug\ListTask.csproj.CoreCompileInputs.cache
 C:\Users\User\source\repos\Codewars\Codewars\6 kyu\ListTask\ListTask\obj\Debug\ListTask.exe
 C:\Users\User\source\repos\Codewars\Codewars\6 kyu\ListTask\ListTask\obj\Debug\ListTask.pdb
+C:\Users\User\source\repos\Codewars\Codewars\6 kyu\ListTask\ListTask\obj\Debug\ListTask.csproj.AssemblyReference.cache

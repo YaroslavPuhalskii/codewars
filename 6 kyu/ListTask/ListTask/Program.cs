@@ -10,8 +10,23 @@ namespace ListTask
     {
         static void Main(string[] args)
         {
+            int[] a = Kata14.SortByBit(new int[] { 3, 8, 3, 6, 5, 7, 9, 1 });
 
-            Kata9.BreakCamelCase("camelCasing");
+            //Kata13.finance(2);
+
+            //Kata12.TowerBuilder(3);
+            
+            //Kata11.BreakCamelCase("camelCasing");
+
+            //Console.Write($" +\"\"\"\"\"+\n" +
+            //                  $"(| o o |)\n" +
+            //                  $" |  ^  |\n" +
+            //                  $" | '-' |\n" +
+            //                  $" +-----+\n");
+
+            //DeleteNth.DeleteNth1(new int[] { 1, 1, 3, 3, 7, 2, 2, 2, 2 }, 3);
+
+            //Kata9.BreakCamelCase("camelCasing");
 
             //Kata8.CountBits(4);
 
